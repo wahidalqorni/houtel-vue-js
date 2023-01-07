@@ -23,8 +23,13 @@ const routes = [
     name: 'LatihanView',
     component: LatihanView
   },
+  // {
+  //   path: '/PemesananView',
+  //   name: 'PemesananView',
+  //   component: PemesananView
+  // },
   {
-    path: '/PemesananView',
+    path: '/PemesananView/:id',
     name: 'PemesananView',
     component: PemesananView
   },
