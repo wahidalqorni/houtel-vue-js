@@ -1,0 +1,417 @@
+/* CSS external */
+
+/* untuk setiap kondisi di pisahkan dengan class */
+.Arista h2 {
+  /* Mengganti warna text */
+  color: red;
+
+  /* mengganti warna backgroung */
+  background-color: #61d129;
+
+  /* Mengubah ukuran text */
+  font-size: 25px;
+
+  /* Mengubah ketebalan text  */
+  font-weight: bold;
+
+  /* mengubah jenis font */
+  font-family: "Poppins";
+}
+
+.Arista img {
+  width: 300px;
+  height: 500px;
+  object-fit: contain;
+
+  /* jika tidak menggunakan auto, tambahkan object-fit : contain untuk membuat tetap proposional tetapi ukuran disesuaikan auto */
+  /* 
+
+  /* TUTORIAL YOUTUBE */
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(/src/fonts/Poppins-Medium.ttf);
+}
+
+#app {
+  font-family: 'Poppins', sans-serif;
+}
+
+#HeaderComp {
+  margin-top: 36px;
+}
+
+#HeaderComp .bg-header {
+  background-color: white;
+
+}
+
+#HeaderComp .navbar-brand img {
+  width: 100%;
+  height: auto;
+}
+
+#BannerComp {
+  color: white;
+}
+
+#BannerComp .btn {
+  margin-right: 20px;
+}
+
+#BannerComp .pencarian .ic_search {
+  width: 24px;
+  height: 24px;
+}
+
+#BannerComp .pencarian {
+  margin-top: -20px;
+}
+
+#BannerComp .pencarian input {
+  padding-left: 20px;
+}
+
+#HotelRec .rekomendasi h5 {
+  font-weight: bold;
+}
+
+#HotelRec .card {
+  border-radius: 25px;
+}
+
+#HotelRec .card h1 {
+  font-weight: bold;
+}
+
+#HotelRec .card p {
+  color: red;
+  font-weight: bold;
+}
+
+#HotelRec .img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+#HotelRec a {
+  border-radius: 10px;
+}
+
+#HotelRec .card span {
+  font-weight: bold;
+}
+
+#CityRec {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#CityRec .rekomendasi h5 {
+  font-weight: bold;
+}
+
+#CityRec .Kota h3 {
+  color: white;
+  margin-top: 270px;
+  margin-left: 15px;
+}
+
+#CityRec .Kota h5 {
+  color: white;
+  margin-left: 15px;
+}
+
+#TagLine .batasAtas {
+  margin-top: 125px;
+}
+
+#TagLine .batasAtas   {
+  width: 100%;
+  height: auto;
+  padding-right: 204px;
+}
+
+#TagLine .tulisan {
+  margin-top: 100px;
+}
+
+#TagLine .tulisan h3 {
+  font-weight: bold;
+  color: red;
+}
+
+#TagLine .tulisan h1 {
+  font-weight: bold;
+}
+
+#TagLine .tulisan h6 {
+  font-weight: 400;
+  padding-top: 28px;
+  padding-right: 250px;
+  color: #D9D9D9;
+}
+
+#TagLine .button a {
+  margin-top: 49px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#TagLine .h1 h1 {
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+#TagLine .h6 h6 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#TagLine .button a {
+  margin-top: 25px;
+}
+
+#FooterComp .tulisan {
+  color: white;
+}
+
+#FooterComp .Sosmed img {
+  width: 24px;
+  height: auto;
+  margin-left: 30px;
+}
+
+#FooterComp .Sosmed h6 {
+  margin-left: 25px;
+}
+
+#FooterComp .Houtel p {
+  margin-top: 1px;
+  padding-right: 100px;
+}
+
+#SearchList .tulisan h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#SearchList .search {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#SearchList .search .ic_search {
+  width: 24px;
+  height: 24px;
+}
+
+#HotelDetail .container {
+  margin-top: 131px;
+}
+
+#HotelDetail .gambar img {
+  height: 383px;
+  width: auto;
+  border-radius: 20px;
+}
+
+#HotelDetail .hotel {
+  margin-left: 100px;
+  margin-top: 26px;
+}
+
+#HotelDetail .hotel h1 {
+  font-size: 40px;
+}
+
+#HotelDetail .hotel h3 {
+  font-size: 16px;
+  margin-top: 23px;
+  margin-bottom: 39px;
+}
+
+#HotelDetail .hotel span {
+  font-size: 16px;
+  margin-left: 18px;
+  font-weight: bold;
+}
+
+#HotelDetail .bintang img {
+  padding-right: 14px;
+}
+
+#HotelDetail a {
+  margin-top: 48px;
+}
+
+#DescDetail .deskripsi {
+  margin-top: 67px;
+}
+
+#DescDetail .lokasi {
+  margin-top: 22px;
+}
+
+#DescDetail .detail {
+  margin-top: 16px;
+}
+
+#DescDetail .fasilitas {
+  margin-top: 42px;
+}
+
+#DescDetail .facility {
+  margin-top: 203px;
+  margin-left: 105px;
+}
+
+#DescDetail .facility h3 {
+  margin-bottom: 21.69px;
+}
+
+#DescDetail .satu {
+  padding-bottom: 44px;
+}
+
+#DescDetail .satu img {
+  padding-right: 25px;
+}
+
+#PemesananHotel {
+  margin-top: 127px;
+}
+
+#PemesananHotel .gambar img {
+  border-radius: 20px;
+  height: 243px;
+  width: auto;
+}
+
+#PemesananHotel .hotel h1 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+#PemesananHotel .hotel h3 {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 23px;
+  padding-bottom: 39px;
+}
+
+#PemesananHotel .hotel img {
+  padding-right: 14px;
+  height: 25px;
+  width: auto;
+}
+
+#PemesananHotel .hotel span {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#PesananTab {
+  margin-top: 102px;
+  padding-right: 627px;
+  padding-left: 100px;
+}
+
+#PesananTab h1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+#PesananTab label {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 18px;
+}
+
+#PesananTab input {
+  margin-bottom: 55px;
+}
+
+#MetodePembayaran h1 {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 43px;
+}
+
+#MetodePembayaran p {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 18px;
+  margin-top: 43px;
+}
+
+#MetodePembayaran .metode p {
+  margin-top: 37px;
+}
+
+#MetodePembayaran img {
+  width: 81px;
+  height: 42px;
+  margin-top: 70px;
+}
+
+#MetodePembayaran h5 {
+  width: 210px;
+  height: 90px;
+  margin-top: 50px;
+
+}
+
+#MetodePembayaran fieldset {
+  width: 255px;
+  height: 62px;
+}
+
+#MetodePembayaran button {
+  margin-top: 40px;
+}
+
+#SuksesKonten img {
+  width: auto;
+  height: 526px;
+  margin-top: 148px;
+}
+
+#SuksesKonten h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #39A0FF;
+  margin-top: 61px;
+}
+
+#SuksesKonten h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+  padding-right: 420px;
+  padding-left: 420px;
+}
+
+#SuksesKonten button {
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 40px;
+}
