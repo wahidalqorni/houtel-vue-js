@@ -60,8 +60,7 @@
                       
                       <a :href="'#PemesananView/'+hotel.id" class="btn btn-primary">Pesan Sekarang</a>
                       <!-- <router-link
-                        to="PemesananView"
-                        href="#"
+                        :to="'/PemesananView/' + hotel.id "
                         class="btn btn-primary"
                         >Pesan Sekarang</router-link
                       > -->

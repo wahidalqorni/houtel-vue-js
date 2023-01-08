@@ -204,7 +204,7 @@ export default {
 
           if (this.response.data.success == true) {
             // success dapat dari hasi response ke API
-            this.$router.push({ path: "/SuccesView" });
+            this.$router.push({ path: "/SuksesView" });
           } else {
             window.alert(this.response.data.message); // message dapat dari hasi response ke API
           }
