@@ -4,7 +4,7 @@
     <!-- <PemesananHotel /> -->
     
     <PesananTab />
-    <MetodePembayaran />
+    <!-- <MetodePembayaran /> -->
     <FooterComp />
   </div>
 </template>
@@ -13,7 +13,7 @@
 import HeaderComp from "@/components/HeaderComp.vue";
 // import PemesananHotel from "../components/PemesananHotel.vue";
 import PesananTab from "../components/PesananTab.vue";
-import MetodePembayaran from "../components/MetodePembayaran.vue";
+// import MetodePembayaran from "../components/MetodePembayaran.vue";
 import FooterComp from "@/components/FooterComp.vue";
 export default {
   name: "PemesananView",
@@ -21,7 +21,7 @@ export default {
     HeaderComp,
     // PemesananHotel,
     PesananTab,
-    MetodePembayaran,
+    // MetodePembayaran,
     FooterComp,
   },
 };
